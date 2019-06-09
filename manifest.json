@@ -35,6 +35,7 @@
         "js": ["js/content_scripts/facebook-content-scripts.js", "js/jquery-2.1.4.min.js"]
     },{
         "matches": ["*://www.youtube.com/*"],
+        "css": ["css/content_scripts/youtube-content-scripts.css"],
         "js": ["js/jquery-2.1.4.min.js", "js/shared.js", "js/content_scripts/youtube-content-scripts.js"]
     }, {
         "matches": ["*://soundcloud.com/*"],

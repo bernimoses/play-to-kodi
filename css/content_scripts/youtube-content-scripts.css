@@ -1,0 +1,8 @@
+.ptk-thumbnail-buttons {
+	display: none;
+}
+
+ytd-thumbnail:hover > .ptk-thumbnail-buttons,
+ytd-playlist-thumbnail:hover > .ptk-thumbnail-buttons {
+	display: block;
+}
