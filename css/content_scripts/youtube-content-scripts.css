@@ -1,8 +1,31 @@
 .ptk-thumbnail-buttons {
 	display: none;
+	width: 96px;
+	height: 32px;
+	padding: 2px;
+	margin: auto;
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 20px;
 }
 
 ytd-thumbnail:hover > .ptk-thumbnail-buttons,
 ytd-playlist-thumbnail:hover > .ptk-thumbnail-buttons {
 	display: block;
+}
+
+.ptk-thumbnail-button {
+	width: 28px;
+	height: 28px;
+	margin: 2px;
+	cursor: pointer;
+	opacity: 0.8;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+	background-color: #111;
 }
